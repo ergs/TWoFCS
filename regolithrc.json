@@ -1,7 +1,7 @@
 {"groupname": "ERGS",
  "databases": [
   {"name": "ergs-public",
-   "url": "git@github.com:ergs/rg-db-twofcs.git",
+   "url": "http://github.com/ergs/rg-db-twofcs.git",
    "public": true,
    "path": "."}
  ],
