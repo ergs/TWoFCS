@@ -1,9 +1,9 @@
 {"groupname": "ERGS",
  "databases": [
   {"name": "ergs-public",
-   "url": "git@github.com:ergs/rg-db-public.git",
+   "url": "git@github.com:ergs/rg-db-twofcs.git",
    "public": true,
-   "path": "db"}
+   "path": "."}
  ],
  "deploy": [
   {"name": "twofcs.ergs.sc.edu",
