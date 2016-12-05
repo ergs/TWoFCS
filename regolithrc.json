@@ -1,6 +1,6 @@
 {"groupname": "ERGS",
  "databases": [
-  {"name": "ergs-public",
+  {"name": "twofcs",
    "url": "http://github.com/ergs/rg-db-twofcs.git",
    "public": true,
    "path": "."}
