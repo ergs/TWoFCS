@@ -101,46 +101,42 @@ Licence URI: http://www.os-templates.com/template-terms
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
+<div class="wrapper row2" id="news">
+  <main class="hoc container clear">
+    <h6 class="heading font-x3">News</h6>
+    <article class="first">
+      <p class="btmspace-30">
+        {% include 'news.html' %}
+      </p>
+    </article>
+    <div class="clear"></div>
+  </main>
+</div>
+
 <!-- ################################################################################################ -->
-<div class="wrapper row2">
-  <div class="hoc container clear">
-    <!-- ################################################################################################ -->
-    <div class="group">
-      <section class="one_half first">
-        <!-- ################################################################################################ -->
-        <h6 class="heading">News</h6>
-        <p class="btmspace-30">
-          {% include 'news.html' %}
-        </p>
-        <ul class="nospace group">
-          <li class="one_half first">
-          </li>
-        </ul>
-        <!-- ################################################################################################ -->
-      </section>
-      <section class="one_half">
-        <!-- ################################################################################################ -->
-        <h6 class="heading">Organizers</h6>
-        <p class="btmspace-30">These are the people responsible for the workshop.</p>
-        {% for p in people %}
-          <article class="group">
-            <div class="one_half first">
-              <!-- <a href="{{root}}/people/{{p['_id']}}.html"> -->
-                <img src="{{p.get('avatar')}}" alt="">
-             <!-- </a> -->
-            </div>
-            <div class="one_half">
-              <h6 class="heading nospace font-x1">{{p['title']}} {{p['name']}}</h6>
-              <em class="block font-xs">{{p['position'].capitalize()}}</em>
-              <p>{{p['bio']}}</p>
-            </div>
-          </article>
-        {% endfor %}
-        <!-- ################################################################################################ -->
-      </section>
-    </div>
-    <!-- ################################################################################################ -->
-  </div>
+<div class="wrapper row3" id="organizers">
+  <main class="hoc container clear">
+    <h6 class="heading font-x3">Organizers</h6>
+    <article class="first">
+      <p class="btmspace-30">These are the people responsible for the workshop.</p>
+      {% for p in people %}
+        <article class="group">
+          <div class="one_half first">
+            <!-- <a href="{{root}}/people/{{p['_id']}}.html"> -->
+              <img src="{{p.get('avatar')}}" alt="">
+           <!-- </a> -->
+          </div>
+          <div class="one_half">
+            <h6 class="heading nospace font-x1">{{p['title']}} {{p['name']}}</h6>
+            <em class="block font-xs">{{p['position'].capitalize()}}</em>
+            <p>{{p['bio']}}</p>
+          </div>
+        </article>
+        <hr/><br/>
+      {% endfor %}
+    </article>
+    <div class="clear"></div>
+  </main>
 </div>
 <!-- ################################################################################################ -->
 <div class="wrapper row4 bgded overlay" style="background-color: black" id="contact">
