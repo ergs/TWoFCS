@@ -1,4 +1,4 @@
-Dear colleagues,
+﻿Dear colleagues,
 
 Dynamic fuel cycle simulation codes are promising tools for assessing nuclear
 fuel cycle future options. Several institutions or laboratories around the
@@ -30,13 +30,14 @@ The topics of interest include:
 -    Optimization algorithms
 -    Uncertainties analysis
 -    Interdisciplinary studies (economics and sociology)
+-    Fuel cycle simulation results visualization
 
 Participants willing to present an oral contribution should `submit an
-abstract <insert form url here when ready>`_ (maximum 400 word) by April
+abstract <https://goo.gl/forms/wCWJT7P7biPbccP83>`_ (maximum 400 word) by April
 3, 2017.
 
 For technical questions about the workshop, please contact Anthony Scopatz: scopatz@gmail.com.
-For logistics questions about the workshop, please contact ....
+For logistics questions about the workshop, please contact Victoria White: VBWHITE@mailbox.sc.edu 
 
 Thanks in advance for forwarding this call to any people that could be interested in this workshop.
 
